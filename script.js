@@ -22,8 +22,7 @@ function insertCompaniesToTheDom(data) {
     img.setAttribute("class", "hoverZoom");
     divForCompany.appendChild(img);
     divForCompany.addEventListener("click", function() {
-      const years = insertYears();
-      console.log({ years });
+      insertYears();
       showYears(company);
     });
     divForCompanies.appendChild(divForCompany);
@@ -32,27 +31,46 @@ function insertCompaniesToTheDom(data) {
 
 function showYears(company) {
   console.log({ company });
-  let matchedYears = [];
+  // let matchedYears = [];
   let allBtn = document.querySelectorAll(".years");
-  console.log({ allBtn });
+  // console.log({ allBtn });
   let timeline = company.valuationTimeline;
-  console.log({ timeline });
-  for (let u = 0; u < allBtn.length; u++) {
-    for (let i = 0; i < timeline.length; i++) {
-      if (timeline[i].year == allBtn[u].innerText) {
-        allBtn[u].classList.add("toChoose");
+  // console.log({ timeline });
 
-        matchedYears.push(timeline[i].year);
-      }
+  allBtn.forEach(btn => {
+    let found = timeline.find(time => time.year == btn.innerText);
+    if (found) {
+      btn.disabled = false;
+      // btn.classList.add("selectable");
+      btn.addEventListener("click", function() {
+        let allBtn = document.querySelectorAll(".years");
+        allBtn.forEach(btn => btn.classList.remove("selected"));
+        btn.classList.add("selected");
+        console.log({ btn });
+        console.log({ found });
+      });
     }
-    allBtn[u].addEventListener("click", function() {
-      console.log("i click", allBtn[u]);
-      let clickedYear = timeline.find(year => year.year == allBtn[u].innerText);
-      console.log({ clickedYear });
-    });
-  }
+  });
 
-  console.log({ matchedYears });
+  // for (let u = 0; u < allBtn.length; u++) {
+  //   for (let i = 0; i < timeline.length; i++) {
+  //     if (timeline[i].year == allBtn[u].innerText) {
+  //       // allBtn[u].classList.add("toChoose");
+  //       allBtn[u].disabled = false;
+  //       // matchedYears.push(timeline[i].year);
+  //       allBtn[u].addEventListener("click", function() {
+  //         let allBtn = document.querySelectorAll(".years");
+  //         allBtn.forEach(btn => btn.classList.remove("selected"));
+  //         allBtn[u].classList.add("selected");
+  //         console.log("i click", allBtn[u]);
+  //         // let clickedYear = timeline.find(year => year.year == allBtn[u].innerText);
+  //         console.log({ "timeline[i]": timeline[i] });
+  //       });
+  //     }
+  //   }
+  // }
+
+  // console.log({ matchedYears });
 }
 
 // function listenerForButtons() {
@@ -102,26 +120,25 @@ function insertYears() {
   const years = yearArray();
   console.log({ years });
   const yearsDiv = document.querySelector("#years");
+  yearsDiv.innerHTML = "";
   years.forEach(year => {
-    let btnForYear = document.createElement("input");
-
-    btnForYear.setAttribute("type", "radio");
-    btnForYear.setAttribute("name", "toggleRadio");
-    let divForLabel = document.createElement("div");
-    divForLabel.setAttribute("class", "years");
-    let label = document.createElement("label");
-    btnForYear.value = year;
-    let p = document.createElement("p");
-    p.textContent = btnForYear.value;
-    label.appendChild(btnForYear);
-    label.appendChild(p);
-    // btnForYear.disabled = true;
-    // btnForYear.innerText = year;
-    // yearsDiv.appendChild(btnForYear);
-    divForLabel.appendChild(label);
-    yearsDiv.appendChild(divForLabel);
+    let btnForYear = document.createElement("button");
+    // btnForYear.setAttribute("type", "radio");
+    // btnForYear.setAttribute("disabled", "true");
+    // let divForLabel = document.createElement("div");
+    btnForYear.setAttribute("class", "years");
+    // let label = document.createElement("label");
+    // btnForYear.value = year;
+    // let p = document.createElement("p");
+    // p.textContent = btnForYear.value;
+    // label.appendChild(btnForYear);
+    // label.appendChild(p);
+    btnForYear.disabled = true;
+    btnForYear.innerText = year;
+    yearsDiv.appendChild(btnForYear);
+    // divForLabel.appendChild(label);
+    // yearsDiv.appendChild(divForLabel);
   });
-  return years;
 }
 
 function yearArray() {

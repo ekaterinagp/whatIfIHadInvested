@@ -75,33 +75,50 @@
   display: none;
 } */
 
+.selected {
+  background-color: aqua;
+  color: #0b0638;
+}
+
+button {
+  background-color: #0b0638;
+  color: #fff;
+}
+
+button:disabled,
+button[disabled] {
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+}
+
 .years {
   text-align: center;
   padding: 1em;
-  border: solid 1px;
+  /* border: solid 1px; */
   -webkit-appearance: button;
   -webkit-transform: scale(1);
   transform: scale(1);
   -webkit-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
-  cursor: pointer;
+  /* cursor: pointer; */
   -webkit-appearance: none;
 }
 
 input[name="toggleRadio"] {
   display: none;
 }
-
+/* 
 input[type="radio"][name="toggleRadio"]:checked {
   background-color: rgb(128, 68, 0);
   color: white;
-}
+} */
 
 .years:hover {
   /* -webkit-transform: scale(1.3);
   transform: scale(1.3); */
-  background-color: rgb(241, 238, 238);
-  color: rgb(39, 38, 38);
+  /* background-color: rgb(241, 238, 238);
+  color: rgb(39, 38, 38); */
 }
 
 .toChoose {
