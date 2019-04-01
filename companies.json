@@ -1,0 +1,1031 @@
+[
+  {
+    "name": "Airbnb",
+    "symbol": null,
+    "img": "img/airbnb.jpg",
+    "valuationTimeline": [
+      {
+        "year": 2008,
+        "amount": 1.5
+      },
+      {
+        "year": 2010,
+        "amount": 2
+      },
+      {
+        "year": 2012,
+        "amount": 1500
+      },
+      {
+        "year": 2013,
+        "amount": 2500
+      },
+      {
+        "year": 2014,
+        "amount": 10000
+      },
+      {
+        "year": 2015,
+        "amount": 25000
+      },
+      {
+        "year": 2017,
+        "amount": 31000
+      },
+      {
+        "year": 2018,
+        "amount": 38000
+      }
+    ]
+  },
+  {
+    "name": "Bloom Energy",
+    "symbol": "BE",
+    "img": "img/bloom.jpg",
+    "valuationTimeline": [
+      {
+        "year": 2002,
+        "amount": 10
+      },
+      {
+        "year": 2003,
+        "amount": 42
+      },
+      {
+        "year": 2004,
+        "amount": 185
+      },
+      {
+        "year": 2006,
+        "amount": 663
+      },
+      {
+        "year": 2009,
+        "amount": 2000
+      },
+      {
+        "year": 2014,
+        "amount": 3750
+      },
+
+      {
+        "year": 2018,
+        "amount": 3170
+      }
+    ]
+  },
+  {
+    "name": "Cloudera",
+    "symbol": "CLDR",
+    "img": "img/cloudera.png",
+    "valuationTimeline": [
+      {
+        "year": 2009,
+        "amount": 11
+      },
+      {
+        "year": 2010,
+        "amount": 25
+      },
+      {
+        "year": 2011,
+        "amount": 40
+      },
+      {
+        "year": 2012,
+        "amount": 700
+      },
+      {
+        "year": 2013,
+        "amount": 2400
+      },
+      {
+        "year": 2014,
+        "amount": 4100
+      },
+      {
+        "year": 2015,
+        "amount": 5000
+      },
+      {
+        "year": 2017,
+        "amount": 1800
+      },
+      {
+        "year": 2018,
+        "amount": 3700
+      }
+    ]
+  },
+  {
+    "name": "Dropbox",
+    "symbol": "DBX",
+    "img": "img/dropbox.png",
+    "valuationTimeline": [
+      {
+        "year": 2007,
+        "amount": 6.53
+      },
+      {
+        "year": 2008,
+        "amount": 29.3
+      },
+      {
+        "year": 2011,
+        "amount": 4000
+      },
+      {
+        "year": 2014,
+        "amount": 10000
+      },
+      {
+        "year": 2017,
+        "amount": 10000
+      },
+      {
+        "year": 2018,
+        "amount": 12000
+      }
+    ]
+  },
+  {
+    "name": "Evernote",
+    "symbol": null,
+    "img": "img/evernote.png",
+    "valuationTimeline": [
+      {
+        "year": 2007,
+        "amount": 30.6
+      },
+      {
+        "year": 2009,
+        "amount": 34.21
+      },
+      {
+        "year": 2010,
+        "amount": 114.3
+      },
+      {
+        "year": 2012,
+        "amount": 1000
+      },
+      {
+        "year": 2013,
+        "amount": 1230
+      },
+      {
+        "year": 2018,
+        "amount": 1700
+      }
+    ]
+  },
+  {
+    "name": "Facebook",
+    "symbol": "FB",
+    "img": "img/fb.png",
+    "valuationTimeline": [
+      {
+        "year": 2005,
+        "amount": 100
+      },
+      {
+        "year": 2006,
+        "amount": 900
+      },
+      {
+        "year": 2007,
+        "amount": 15000
+      },
+      {
+        "year": 2009,
+        "amount": 10000
+      },
+      {
+        "year": 2010,
+        "amount": 23000
+      },
+      {
+        "year": 2011,
+        "amount": 65000
+      },
+      {
+        "year": 2012,
+        "amount": 83500
+      },
+      {
+        "year": 2013,
+        "amount": 136000
+      },
+      {
+        "year": 2014,
+        "amount": 178000
+      },
+      {
+        "year": 2015,
+        "amount": 237000
+      },
+      {
+        "year": 2016,
+        "amount": 384000
+      },
+      {
+        "year": 2017,
+        "amount": 540000
+      },
+      {
+        "year": 2018,
+        "amount": 611000
+      },
+      {
+        "year": 2019,
+        "amount": null
+      }
+    ]
+  },
+  {
+    "name": "Flipkart",
+    "symbol": null,
+    "img": "img/flipkart.jpg",
+    "valuationTimeline": [
+      {
+        "year": 2009,
+        "amount": 50
+      },
+      {
+        "year": 2010,
+        "amount": 1000
+      },
+      {
+        "year": 2012,
+        "amount": 1200
+      },
+      {
+        "year": 2013,
+        "amount": 1600
+      },
+      {
+        "year": 2014,
+        "amount": 11000
+      },
+      {
+        "year": 2015,
+        "amount": 15500
+      },
+      {
+        "year": 2016,
+        "amount": 11500
+      },
+      {
+        "year": 2017,
+        "amount": 11600
+      },
+      {
+        "year": 2018,
+        "amount": 7900
+      }
+    ]
+  },
+  {
+    "name": "Groupon",
+    "symbol": "GRPN",
+    "img": "img/groupon.png",
+    "valuationTimeline": [
+      {
+        "year": 2009,
+        "amount": 250
+      },
+      {
+        "year": 2010,
+        "amount": 1350
+      },
+      {
+        "year": 2012,
+        "amount": 3500
+      },
+      {
+        "year": 2013,
+        "amount": 7760
+      },
+      {
+        "year": 2014,
+        "amount": 4410
+      },
+      {
+        "year": 2015,
+        "amount": 4710
+      },
+      {
+        "year": 2016,
+        "amount": 2980
+      },
+      {
+        "year": 2017,
+        "amount": 2950
+      },
+      {
+        "year": 2018,
+        "amount": 2700
+      },
+      {
+        "year": 2019,
+        "amount": null
+      }
+    ]
+  },
+  {
+    "name": "Instagram",
+    "symbol": null,
+    "img": "img/instagram.png",
+    "valuationTimeline": [
+      {
+        "year": 2010,
+        "amount": 2.6
+      },
+      {
+        "year": 2011,
+        "amount": 20
+      },
+      {
+        "year": 2012,
+        "amount": 500
+      }
+    ]
+  },
+  {
+    "name": "Palantir",
+    "symbol": null,
+    "img": "img/palantir.jpg",
+    "valuationTimeline": [
+      {
+        "year": 2006,
+        "amount": 7
+      },
+      {
+        "year": 2008,
+        "amount": 400
+      },
+      {
+        "year": 2010,
+        "amount": 735
+      },
+      {
+        "year": 2011,
+        "amount": 1700
+      },
+      {
+        "year": 2014,
+        "amount": 9000
+      },
+      {
+        "year": 2015,
+        "amount": 20000
+      },
+      {
+        "year": 2019,
+        "amount": 15400
+      }
+    ]
+  },
+  {
+    "name": "Pinterest",
+    "symbol": null,
+    "img": "img/pinterest.png",
+    "valuationTimeline": [
+      {
+        "year": 2009,
+        "amount": 2.2
+      },
+      {
+        "year": 2010,
+        "amount": 5.8
+      },
+      {
+        "year": 2011,
+        "amount": 50.4
+      },
+      {
+        "year": 2012,
+        "amount": 1700
+      },
+      {
+        "year": 2013,
+        "amount": 2600
+      },
+      {
+        "year": 2014,
+        "amount": 4900
+      },
+      {
+        "year": 2015,
+        "amount": 11600
+      },
+      {
+        "year": 2017,
+        "amount": 12300
+      },
+      {
+        "year": 2019,
+        "amount": 15000
+      }
+    ]
+  },
+  {
+    "name": "Snapchat",
+    "symbol": "SNAP",
+    "img": "img/snapchat.png",
+    "valuationTimeline": [
+      {
+        "year": 2012,
+        "amount": 70
+      },
+      {
+        "year": 2013,
+        "amount": 3500
+      },
+      {
+        "year": 2015,
+        "amount": 19000
+      },
+      {
+        "year": 2017,
+        "amount": 30000
+      },
+      {
+        "year": 2018,
+        "amount": 12800
+      },
+      {
+        "year": 2019,
+        "amount": null
+      }
+    ]
+  },
+  {
+    "name": "Space X",
+    "symbol": null,
+    "img": "img/spacex.jpg",
+    "valuationTimeline": [
+      {
+        "year": 2002,
+        "amount": 18.8
+      },
+      {
+        "year": 2005,
+        "amount": 70.5
+      },
+      {
+        "year": 2007,
+        "amount": 316.5
+      },
+      {
+        "year": 2008,
+        "amount": 544.5
+      },
+      {
+        "year": 2009,
+        "amount": 796
+      },
+      {
+        "year": 2010,
+        "amount": 1000
+      },
+      {
+        "year": 2015,
+        "amount": 10100
+      },
+      {
+        "year": 2018,
+        "amount": 30500
+      }
+    ]
+  },
+  {
+    "name": "Spotify",
+    "symbol": "spot",
+    "img": "img/spotify.png",
+    "valuationTimeline": [
+      {
+        "year": 2008,
+        "amount": 120
+      },
+      {
+        "year": 2009,
+        "amount": 150
+      },
+      {
+        "year": 2011,
+        "amount": 1000
+      },
+      {
+        "year": 2012,
+        "amount": 3000
+      },
+      {
+        "year": 2013,
+        "amount": 4250
+      },
+      {
+        "year": 2015,
+        "amount": 8530
+      },
+      {
+        "year": 2018,
+        "amount": 23500
+      },
+      {
+        "year": 2019,
+        "amount": 27300
+      }
+    ]
+  },
+  {
+    "name": "Square",
+    "symbol": "sq",
+    "img": "img/square.png",
+    "valuationTimeline": [
+      {
+        "year": 2009,
+        "amount": 30
+      },
+      {
+        "year": 2011,
+        "amount": 230
+      },
+      {
+        "year": 2012,
+        "amount": 3250
+      },
+      {
+        "year": 2014,
+        "amount": 6000
+      },
+      {
+        "year": 2018,
+        "amount": 26000
+      },
+
+      {
+        "year": 2019,
+        "amount": null
+      }
+    ]
+  },
+  {
+    "name": "Stripe",
+    "symbol": null,
+    "img": "img/stripe.png",
+    "valuationTimeline": [
+      {
+        "year": 2012,
+        "amount": 100
+      },
+      {
+        "year": 2013,
+        "amount": 500
+      },
+      {
+        "year": 2014,
+        "amount": 3580
+      },
+      {
+        "year": 2015,
+        "amount": 5000
+      },
+      {
+        "year": 2016,
+        "amount": 9200
+      },
+      {
+        "year": 2018,
+        "amount": 20000
+      },
+      {
+        "year": 2019,
+        "amount": 22500
+      }
+    ]
+  },
+  {
+    "name": "Twitter",
+    "symbol": "twtr",
+    "img": "img/twitter.jpg",
+    "valuationTimeline": [
+      {
+        "year": 2007,
+        "amount": 25
+      },
+      {
+        "year": 2008,
+        "amount": 100
+      },
+      {
+        "year": 2009,
+        "amount": 1000
+      },
+      {
+        "year": 2010,
+        "amount": 3700
+      },
+      {
+        "year": 2011,
+        "amount": 8480
+      },
+      {
+        "year": 2013,
+        "amount": 14200
+      },
+      {
+        "year": 2019,
+        "amount": null
+      }
+    ]
+  },
+  {
+    "name": "Uber",
+    "symbol": null,
+    "img": "img/uber.png",
+    "valuationTimeline": [
+      {
+        "year": 2010,
+        "amount": 5.4
+      },
+      {
+        "year": 2011,
+        "amount": 346.5
+      },
+      {
+        "year": 2013,
+        "amount": 3700
+      },
+      {
+        "year": 2014,
+        "amount": 41200
+      },
+      {
+        "year": 2015,
+        "amount": 51000
+      },
+      {
+        "year": 2016,
+        "amount": 69000
+      },
+      {
+        "year": 2017,
+        "amount": 48000
+      },
+      {
+        "year": 2018,
+        "amount": 76000
+      },
+      {
+        "year": 2019,
+        "amount": 76000
+      }
+    ]
+  },
+  {
+    "name": "WeWork",
+    "symbol": null,
+    "img": "img/wework.jpg",
+    "valuationTimeline": [
+      {
+        "year": 2009,
+        "amount": 97
+      },
+      {
+        "year": 2010,
+        "amount": 444
+      },
+      {
+        "year": 2011,
+        "amount": 4800
+      },
+      {
+        "year": 2014,
+        "amount": 5000
+      },
+      {
+        "year": 2015,
+        "amount": 15800
+      },
+      {
+        "year": 2017,
+        "amount": 21100
+      },
+      {
+        "year": 2018,
+        "amount": 45000
+      },
+      {
+        "year": 2019,
+        "amount": 47000
+      }
+    ]
+  },
+  {
+    "name": "Zynga",
+    "symbol": "znga",
+    "img": "img/zyngajpg.jpg",
+    "valuationTimeline": [
+      {
+        "year": 2008,
+        "amount": 22.5
+      },
+      {
+        "year": 2009,
+        "amount": 3500
+      },
+      {
+        "year": 2010,
+        "amount": 4600
+      },
+      {
+        "year": 2011,
+        "amount": 11900
+      },
+      {
+        "year": 2012,
+        "amount": 8800
+      },
+      {
+        "year": 2019,
+        "amount": null
+      }
+    ]
+  },
+  {
+    "name": "Quora",
+    "symbol": null,
+    "img": "img/quora.png",
+    "valuationTimeline": [
+      {
+        "year": 2010,
+        "amount": 86
+      },
+      {
+        "year": 2012,
+        "amount": 400
+      },
+      {
+        "year": 2014,
+        "amount": 900
+      },
+      {
+        "year": 2017,
+        "amount": 1800
+      },
+      {
+        "year": 2019,
+        "amount": 2800
+      }
+    ]
+  },
+  {
+    "name": "Reddit",
+    "symbol": null,
+    "img": "img/reddit.png",
+    "valuationTimeline": [
+      {
+        "year": 2014,
+        "amount": 500
+      },
+      {
+        "year": 2017,
+        "amount": 1800
+      },
+      {
+        "year": 2019,
+        "amount": 3000
+      }
+    ]
+  },
+  {
+    "name": "Slack",
+    "symbol": null,
+    "img": "img/slack.jpg",
+    "valuationTimeline": [
+      {
+        "year": 2010,
+        "amount": 23.5
+      },
+      {
+        "year": 2011,
+        "amount": 77.4
+      },
+      {
+        "year": 2014,
+        "amount": 1000
+      },
+      {
+        "year": 2015,
+        "amount": 2800
+      },
+      {
+        "year": 2016,
+        "amount": 3800
+      },
+      {
+        "year": 2017,
+        "amount": 4800
+      },
+      {
+        "year": 2018,
+        "amount": 7100
+      }
+    ]
+  },
+  {
+    "name": "Soundcloud",
+    "symbol": null,
+    "img": "img/soundcloud.jpg",
+    "valuationTimeline": [
+      {
+        "year": 2009,
+        "amount": 10
+      },
+      {
+        "year": 2010,
+        "amount": 38.2
+      },
+      {
+        "year": 2012,
+        "amount": 250
+      },
+      {
+        "year": 2014,
+        "amount": 700
+      },
+      {
+        "year": 2017,
+        "amount": 320
+      },
+      {
+        "year": 2018,
+        "amount": 700
+      },
+      {
+        "year": 2018,
+        "amount": 7100
+      }
+    ]
+  },
+  {
+    "name": "Udacity",
+    "symbol": null,
+    "img": "img/udacity.png",
+    "valuationTimeline": [
+      {
+        "year": 2012,
+        "amount": 36
+      },
+      {
+        "year": 2013,
+        "amount": 60.5
+      },
+      {
+        "year": 2014,
+        "amount": 213.8
+      },
+      {
+        "year": 2015,
+        "amount": 1100
+      },
+      {
+        "year": 2018,
+        "amount": 1000
+      },
+      {
+        "year": 2018,
+        "amount": 700
+      }
+    ]
+  },
+  {
+    "name": "Lyft",
+    "symbol": null,
+    "img": "img/lyft.png",
+    "valuationTimeline": [
+      {
+        "year": 2008,
+        "amount": 11.5
+      },
+      {
+        "year": 2011,
+        "amount": 45.5
+      },
+      {
+        "year": 2012,
+        "amount": 147.7
+      },
+      {
+        "year": 2013,
+        "amount": 335.6
+      },
+      {
+        "year": 2014,
+        "amount": 1100
+      },
+      {
+        "year": 2015,
+        "amount": 2800
+      },
+      {
+        "year": 2017,
+        "amount": 7600
+      },
+      {
+        "year": 2018,
+        "amount": 15100
+      }
+    ]
+  },
+  {
+    "name": "Wish",
+    "symbol": null,
+    "img": "img/wish.jpg",
+    "valuationTimeline": [
+      {
+        "year": 2012,
+        "amount": 102.5
+      },
+      {
+        "year": 2013,
+        "amount": 141
+      },
+      {
+        "year": 2014,
+        "amount": 1100
+      },
+      {
+        "year": 2015,
+        "amount": 3500
+      },
+      {
+        "year": 2016,
+        "amount": 4000
+      },
+      {
+        "year": 2018,
+        "amount": 4000
+      }
+    ]
+  },
+  {
+    "name": "Houzz",
+    "symbol": null,
+    "img": "img/houzz.png",
+    "valuationTimeline": [
+      {
+        "year": 2010,
+        "amount": 5.8
+      },
+      {
+        "year": 2011,
+        "amount": 41.8
+      },
+      {
+        "year": 2013,
+        "amount": 366
+      },
+      {
+        "year": 2014,
+        "amount": 2300
+      },
+      {
+        "year": 2017,
+        "amount": 3900
+      },
+      {
+        "year": 2018,
+        "amount": 4000
+      }
+    ]
+  },
+  {
+    "name": "DoorDash",
+    "symbol": null,
+    "img": "img/doordash.jpg",
+    "valuationTimeline": [
+      {
+        "year": 2014,
+        "amount": 73.5
+      },
+      {
+        "year": 2015,
+        "amount": 600
+      },
+      {
+        "year": 2017,
+        "amount": 700
+      },
+      {
+        "year": 2018,
+        "amount": 4000
+      },
+      {
+        "year": 2019,
+        "amount": 7100
+      }
+    ]
+  }
+]
