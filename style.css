@@ -38,20 +38,19 @@
   height: auto;
 } */
 
-.masonry {
+.masonary {
   /* column-count: 8; */
   /* column-gap: 3em; */
-  margin: 1.5em auto;
-  max-width: 48vw;
-  column-gap: 0;
+  display: grid;
+  grid-template-columns: 3fr 3fr 3fr 3fr 3fr 3fr 3fr;
 }
 
-.masonry div {
-  background-color: #eee;
-  display: inline-block;
-  /* margin: 0 0 1em; */
-  width: 5em;
-  z-index: 1;
+.masonary div {
+  width: 100%;
+}
+
+.masonary img {
+  width: 55%;
 }
 
 .masonry div img {
@@ -114,13 +113,6 @@ input[type="radio"][name="toggleRadio"]:checked {
   color: white;
 } */
 
-.years:hover {
-  /* -webkit-transform: scale(1.3);
-  transform: scale(1.3); */
-  /* background-color: rgb(241, 238, 238);
-  color: rgb(39, 38, 38); */
-}
-
 .toChoose {
   /* -webkit-transform: scale(1.3); */
   /* transform: scale(1.3); */
@@ -137,7 +129,11 @@ input[type="radio"][name="toggleRadio"]:checked {
   background-color: red;
   color: white;
 }
-.hoverZoom {
+
+/* #companies img{
+  width:20%;
+} */
+/* .hoverZoom {
   width: 300px;
   height: auto;
   -webkit-transition: 0.3s ease-in-out;
@@ -146,7 +142,7 @@ input[type="radio"][name="toggleRadio"]:checked {
 
 .hoverzoom:hover {
   width: 6em;
-}
+} */
 
 /* input[type="number"] {
   display: block;

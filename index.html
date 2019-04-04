@@ -8,40 +8,26 @@
   </head>
   <body>
     <div id="container">
-      <div id="companies" class="masonry">
+      <div id="companies">
         <h1>What company would you wish to invest to?</h1>
       </div>
       <div id="inputInvestment">
         <h1>How much would you invest?</h1>
         <span class="currencyinput"
-          >$<input type="number" name="currency"
+          >$<input type="number" name="currency" id="invest"
         /></span>
+        <button id="count">Calculate!</button>
       </div>
       <div id="wrapper">
         <h1>What year would you wish to invest?</h1>
         <div id="years">
-          <!-- <div class="year">2002</div>
-        <div class="year">2003</div>
-        <div class="year">2004</div>
-        <div class="year">2005</div>
-        <div class="year">2006</div>
-        <div class="year">2007</div>
-        <div class="year">2008</div>
-        <div class="year">2009</div>
-        <div class="year">2010</div>
-        <div class="year">2011</div>
-        <div class="year">2012</div>
-        <div class="year">2013</div>
-        <div class="year">2014</div>
-        <div class="year">2015</div>
-        <div class="year">2016</div>
-        <div class="year">2017</div>
-        <div class="year">2018</div>
-        <div class="year">2019</div> -->
+        
         </div>
       </div>
       <div id="results">
-        <div id="output"></div>
+        <div id="output"><p>If you would invest <h2 id="amountInvest"></h2>dollars in
+          <h2 id="companyName"></h2>in <h2 id="yearInvestment"></h2> by now you'd have <h2 id="moneyNow"></h2> dollars</p>
+        </div>
       </div>
     </div>
     <script src="script.js"></script>
