@@ -46,7 +46,11 @@
 }
 
 .masonary div {
-  width: 100%;
+  width: 115px;
+  height: 100px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
 }
 
 .masonary img {

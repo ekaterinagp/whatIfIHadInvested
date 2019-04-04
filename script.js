@@ -20,12 +20,13 @@ function insertCompaniesToTheDom(data) {
   divWrapIcons.setAttribute("class", "masonary");
   data.forEach(company => {
     let divForCompany = document.createElement("div");
-    // divForCompany.style.backgroundImage = company.img;
-    // divForCompany.setAttribute("class", "masonary");
-    let img = document.createElement("img");
-    img.setAttribute("src", company.img);
+    divForCompany.style.backgroundImage = "url(" + company.img + ")";
+    // divForCompany.setAttribute("width", "80px");
+    // divForCompany.setAttribute("height", "80px");
+    // let img = document.createElement("img");
+    // img.setAttribute("src", company.img);
     // img.setAttribute("class", "hoverZoom");
-    divForCompany.appendChild(img);
+    // divForCompany.appendChild(img);
     divForCompany.addEventListener("click", function() {
       companyinDOM.textContent = "";
       document.querySelector("#companyName").textContent = "";
