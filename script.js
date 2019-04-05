@@ -51,6 +51,7 @@ function showYears(company) {
     company.valuationTimeline[company.valuationTimeline.length - 1].amount ==
     null
   ) {
+    // THIS LINE SHOULD BE CHANGED TO GET A DYNAMIC DATA, WE ONLY NEED HOW MUCH MARKET CAP IS NOW AND HERE WE GET AN OBJECT WITH THE YEAR AND THE AMOUNT, SO CREATE ONE ALSO
     companyLastYear =
       company.valuationTimeline[company.valuationTimeline.length - 2];
   }

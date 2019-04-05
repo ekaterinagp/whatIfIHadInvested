@@ -71,6 +71,10 @@
       {
         "year": 2018,
         "amount": 3170
+      },
+      {
+        "year": 2019,
+        "amount": null
       }
     ]
   },
@@ -114,6 +118,10 @@
       {
         "year": 2018,
         "amount": 3700
+      },
+      {
+        "year": 2019,
+        "amount": null
       }
     ]
   },
@@ -145,6 +153,10 @@
       {
         "year": 2018,
         "amount": 12000
+      }
+      {
+        "year": 2019,
+        "amount": null
       }
     ]
   },
@@ -235,10 +247,10 @@
       {
         "year": 2018,
         "amount": 611000
-      },
+      }
       {
         "year": 2019,
-        "amount": 495000
+        "amount": null
       }
     ]
   },
@@ -464,7 +476,7 @@
       },
       {
         "year": 2019,
-        "amount": 14770
+        "amount": null
       }
     ]
   },
@@ -546,7 +558,7 @@
       },
       {
         "year": 2019,
-        "amount": 27300
+        "amount": null
       }
     ]
   },
@@ -613,7 +625,7 @@
       },
       {
         "year": 2019,
-        "amount": 22500
+        "amount": null
       }
     ]
   },
@@ -695,7 +707,7 @@
       },
       {
         "year": 2019,
-        "amount": 76000
+        "amount": null
       }
     ]
   },
