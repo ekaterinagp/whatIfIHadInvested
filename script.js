@@ -109,27 +109,32 @@ function saveInput(found, lastYear) {
 
   investInput.addEventListener("change", function() {
     investinDom.textContent = "";
-    investinDom.textContent = investInput.value;
+    investinDom.textContent = investInput.value + "$";
     countResult(found, lastYear);
   });
 }
 
 function countResult(found, lastYear) {
-  let btnCount = document.querySelector("#count");
+  // let btnCount = document.querySelector("#count");
   console.log({ found });
   console.log({ lastYear });
   let increaseInPercantage = (lastYear.amount / found.amount) * 100;
   console.log({ increaseInPercantage });
   let investment = document.querySelector("#invest").value;
   let result = (investment / 100) * increaseInPercantage;
+  result = Math.round(result * 100) / 100;
   console.log({ result });
   let output = document.querySelector("#moneyNow");
-  output.textContent = result;
+  output.textContent = result + "$";
 }
 
 function init() {
   fetchCompanies();
   // saveInput();
+  // let btnCount = document.querySelector("#count");
+  // btnCount.addEventListener("click", function() {
+  //   countResult();
+  // });
 }
 
 // API from alphavantage
