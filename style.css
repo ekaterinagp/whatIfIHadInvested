@@ -168,3 +168,37 @@ input[type="radio"][name="toggleRadio"]:checked {
 #years input:checked + .toChoose {
   background-color: red;
 }
+
+@media only screen and (min-width: 300px) and (max-width: 600px) {
+  #container {
+    display: block;
+  }
+
+  #wrapper,
+  #inputInvestment,
+  #results {
+    width: 100%;
+    height: auto;
+    margin: 1em;
+  }
+
+  #companies {
+    width: 100%;
+    height: auto;
+  }
+
+  .masonary {
+    /* column-count: 8; */
+    /* column-gap: 3em; */
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr 3fr;
+  }
+
+  .masonary div {
+    width: 16vw;
+    height: 10vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+  }
+}
