@@ -123,6 +123,7 @@ function countResult(found, lastYear) {
   let investment = document.querySelector("#invest").value;
   let result = (investment / 100) * increaseInPercantage;
   result = Math.round(result * 100) / 100;
+  result = result.toLocaleString();
   console.log({ result });
   let output = document.querySelector("#moneyNow");
   output.textContent = result + "$";
