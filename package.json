@@ -1,0 +1,23 @@
+{
+  "name": "whatifihadinvested",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "mocha --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ekaterinagp/whatIfIHadInvested.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ekaterinagp/whatIfIHadInvested/issues"
+  },
+  "homepage": "https://github.com/ekaterinagp/whatIfIHadInvested#readme",
+  "devDependencies": {
+    "mocha": "^6.1.4",
+    "unexpected": "^11.4.0"
+  }
+}

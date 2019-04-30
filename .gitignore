@@ -1,3 +1,4 @@
 mock invested.xd
 api.zip
-api/**
+api
+node_modules
